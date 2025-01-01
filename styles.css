@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.about{
+    text-align: start ;
+    margin: 50px;
+}
+
+
+
+h1{
+    color: rgb(243, 69, 220);
+    text-align: center;
+    font-size: 60px;
+    background-color: bisque;
+    
+}
+li{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+img{
+    width: 250px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+.guacomole{
+    color: green;
+}
+
+.lasagna{
+    color: orange;
+}
+.brownies{
+    color: gray;
+}
