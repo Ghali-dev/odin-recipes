@@ -1,21 +1,107 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(124, 122, 122);
+}
+
+.header{
+    background-color: #1F2937 ;
+    display: flex; 
+    flex-direction: row; 
+    color: white;
+    font-size: 48px;   
+    font-weight: 900; 
+    align-items: center;
+    padding: 16px;
+
+}
+
+
+.footer{
+    background-color: #1F2937 ;
+    display: flex; 
+    font-size: 48px;   
+    font-weight: 900; 
+    align-items: center;
+    padding: 16px;
+    color: white;
+    justify-content: center;
+
+
+}
+
+
+.intro{
+    color: white;
+    background-color: #1F2937;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+
+
+
+}
+
+.semoji{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    down: 250px;
+    left: 250px;
+}
+
+.temoji{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 250px;
+    left: -200px;
+}
+
+.chef{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 650px;
+    left: 800px;
 }
 
 .about{
-    text-align: start ;
-    margin: 50px;
+    padding-right: 16px;
+}
+
+
+.header-links{
+    margin-left: auto;
+    gap: 36px;
+    padding: 16px;
+
+    font-size: 16px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.food{
+    display: flex;
+    padding: 16px;
 }
 
 
 
-h1{
-    color: rgb(243, 69, 220);
-    text-align: center;
-    font-size: 60px;
-    background-color: bisque;
-    
+
+.clickable{
+    border-radius: 8px;
+    transition: transform 0.2s;
 }
+
+.clickable:hover{
+    transform: scale(1.05);
+}
+
+
 li{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
